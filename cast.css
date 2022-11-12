@@ -18,7 +18,8 @@ body{
     "cast"
     "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 100px 1fr 50px;
+    grid-template-rows: 100px 50px 1fr 50px;
+    grid-gap: 25px;
 }
 
 .header {
@@ -33,12 +34,26 @@ body{
     align-items: center;
 }
 
-h1 {
+.navlink {
+    transition: font-size .8s linear;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+.navlink:hover {
+    font-size: 2rem;
+    color: red;
+}
+
+.heading {
     grid-area: h1;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 25px;
     color: #ffee15;
+    font-size: 25pt;
 }
 
 .nav {
@@ -46,11 +61,14 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
     padding: 25px;
-    color: white;
 }
 
 main {
-    margin: 25px;
+    margin: 15px;
+    background-color: white;
+    height: fit-content;
+    max-width: 800px;
+    margin: auto;
 }
 
 .cast_card__container { 
@@ -60,43 +78,66 @@ main {
     grid-auto-rows: 300px;
     justify-items: center;
     align-items: center;
+    font-size: 18pt;
 }
 
 .title {
     grid-area: title;
     display: grid;
-    font-size: 40pt;
+    font-size: 36pt;
     font-style: bold;
     justify-items: center;
     align-items: center;
+    margin: 10px;
 }  
+.main_p {
+    margin: 25px;
+    text-align: start;
+    font-size: 16pt;
+}
 
   .cast_card {
-    width: 228px;
+    width: 220px;
+    height: 230px;
     box-shadow: var(--gray) 4px 4px 10px 2px;
     border-radius: 3px;
     background-color: #7CC4F8;
   }
   
-  .cast_card__img {
+  .cast_card__img1 {
     height: 100px;
     width: 100px;
-    padding: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .cast_card__img2 {
+    height: 100px;
+    width: 100px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   
   .cast_card__text {
     text-align: center;
     background-color: grey;
     color: white;
-    padding: 10px;
+    padding: 20px;
+    height: 84px;
+  }
+  .PotatoHeadText {
+    font-size: 16.5pt;
+    padding-top: 5px;
+    padding-bottom: 33px;
   }
 
 footer {
     grid-area: footer;
     display: grid;
-    align-items: center;
     justify-items: center;
+    align-items: center;
     background-color: #7cc4f8;
-    color:white;
-    padding: 10px 0px;
+    color: white;
 }
