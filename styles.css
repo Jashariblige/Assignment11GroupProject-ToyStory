@@ -92,3 +92,11 @@ footer{
 .soundtrack{
     text-align: center;
 }
+
+/*home page */
+    .Welcomeinfo{
+        text-align: center;
+    }
+    .characters{
+        padding: 10;
+    }
