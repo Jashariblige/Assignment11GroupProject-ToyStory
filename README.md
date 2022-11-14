@@ -10,4 +10,4 @@ Jashari Blige
 Link to deployed site: https://jashariblige.github.io/Assignment11GroupProject-ToyStory/
 
 Issues:
-We had problems with our work not pushing through to github at times and some direct commits were made after disscussion of the approval from the group. We also had an issue with work being deleted and a file showing blank which had to be re-written although we had the necessary restrictions on to prevent this. We also had a few pull request show that conflicts were present and we manually fixed the changes from the comamand line of VScode.
+We had problems with our work not pushing through to github at times and some direct commits were made after disscussion of the approval from the group. We also had an issue with work being deleted and a file showing blank which had to be re-written although we had the necessary restrictions on to prevent this. We also had a few pull request show that conflicts were present and we manually fixed the changes from the comamand line of VScode. The last issue is the navigation links from the intial home page don't load the links, however they are visible and link to the correct pages in live view from VScode.
