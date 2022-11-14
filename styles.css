@@ -24,8 +24,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
+
 main{
     background-color: #dff8ff;
 }
@@ -56,14 +56,20 @@ h2{
     margin: auto;
     padding-right: 30px;
     text-align: center;
-   
-    
 }
 
 .navigation__navlink{
+    transition: font-size .8s linear;
     margin: 0 5px;
     color: white;
+    text-decoration: none;
 }
+
+.navigation_navlink:hover {
+    font-size: 2rem;
+    color: red;
+}
+
 footer{
     text-align: center;
     background-color: #7cc4f8;
