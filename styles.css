@@ -65,7 +65,7 @@ h2{
     text-decoration: none;
 }
 
-.navigation_navlink:hover {
+.navigation__navlink:hover {
     font-size: 2rem;
     color: red;
 }
